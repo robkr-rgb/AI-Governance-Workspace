@@ -7,7 +7,7 @@ metadata:
 
 # Project Source Of Truth
 
-Use this skill to make Git/GitHub the durable source of truth for projects scattered across local folders, Claude, Cursor, Codex, and existing repositories.
+Use this skill to make Git/GitHub the durable source of truth for projects and portable AI environment configuration scattered across local folders, Claude, Cursor, Codex, and existing repositories.
 
 ## Default Workspace
 
@@ -23,6 +23,8 @@ Expected control files:
 PROJECTS.md
 REPO_VALIDATION.md
 README.md
+codex/
+skills/
 ```
 
 Treat that folder as the control plane. Nested project folders are separate Git repositories and should be ignored by the control-plane repo.
@@ -37,6 +39,7 @@ Treat that folder as the control plane. Nested project folders are separate Git 
 - Never delete duplicate folders during migration unless the user explicitly asks.
 - Never commit secrets, `.env`, local settings, caches, build outputs, or OS noise.
 - Use private GitHub repos by default for migrated personal/local projects.
+- Treat AI tool configuration as source only after separating portable config from secrets and runtime state.
 
 ## Inventory Workflow
 
@@ -194,6 +197,34 @@ Keep `REPO_VALIDATION.md` factual:
 - remaining cleanup
 
 Commit and push registry changes after each migration pass.
+
+## Codex Environment Workflow
+
+When the user asks to make Codex itself part of the Git source of truth:
+
+1. Inventory `/Users/rob/.codex`.
+2. Classify files as portable config, secrets, runtime databases, sessions, logs, caches, app bundles, or temporary files.
+3. Copy only safe source configuration into the workspace repo under `codex/`.
+4. Store personal skills under `skills/`.
+5. Sanitize credentials in `codex/config.toml` with placeholders such as `__SET_LOCALLY__`.
+6. Track `codex/SYNC_POLICY.md` explaining what is excluded and why.
+7. Track `codex/secrets.example.env` with names only, never values.
+8. Commit and push the control repo.
+
+Codex paths that must not be committed:
+
+- `/Users/rob/.codex/auth.json`
+- `/Users/rob/.codex/*.sqlite*`
+- `/Users/rob/.codex/sessions/`
+- `/Users/rob/.codex/logs_*.sqlite*`
+- `/Users/rob/.codex/shell_snapshots/`
+- `/Users/rob/.codex/cache/`
+- `/Users/rob/.codex/plugins/cache/`
+- `/Users/rob/.codex/vendor_imports/`
+- `/Users/rob/.codex/computer-use/Codex Computer Use.app`
+- `/Users/rob/.codex/.tmp/`
+
+If live credentials are found in local Codex config, do not print them in the final answer. Say they exist, keep them out of Git, and recommend rotating them if they were exposed.
 
 ## Forward Operating Model
 

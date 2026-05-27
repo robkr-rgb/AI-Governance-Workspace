@@ -13,6 +13,8 @@ This validation compares authenticated GitHub repositories under `robkr-rgb` wit
 
 The goal is to make Git the durable source of truth for work created through Codex, Claude, Cursor, GitHub, and local project folders.
 
+This pass also covers portable Codex environment configuration from `/Users/rob/.codex`.
+
 ## Result
 
 All discovered standalone Claude project folders have now been migrated to Git or reconciled with an existing GitHub repository.
@@ -104,6 +106,22 @@ The following paths were discovered but intentionally not migrated as project so
 - `minions` has important local work on branch `v0.5`.
 - `reverse-engineer-solar` requires Git LFS for full fidelity because it includes a large video file.
 - The broad `/Users/rob/Documents` parent repo still exists and may show changes because nested projects are now standalone repositories. It should no longer be treated as the source of truth for these projects.
+
+## Codex Environment
+
+Portable Codex configuration is now represented in Git under `codex/`.
+
+| Runtime item | Git-backed source | Status |
+|---|---|---|
+| `/Users/rob/.codex/config.toml` | `codex/config.toml` | Tracked as sanitized source with placeholders for secrets. |
+| `/Users/rob/.codex/rules/default.rules` | `codex/rules/default.rules` | Tracked. |
+| `/Users/rob/.codex/skills/project-source-of-truth/SKILL.md` | `skills/project-source-of-truth/SKILL.md` | Tracked and installed copy synced. |
+| Codex sync policy | `codex/SYNC_POLICY.md` | Tracked. |
+| Required secret names | `codex/secrets.example.env` | Tracked without values. |
+
+Codex runtime files intentionally not tracked include `auth.json`, SQLite databases, sessions, logs, shell snapshots, plugin caches, temporary files, and app bundles.
+
+Live credentials were found in the local runtime Codex config and were not committed. They should be stored outside Git and rotated if exposed.
 
 ## Remaining Cleanup
 

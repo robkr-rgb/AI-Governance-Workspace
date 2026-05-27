@@ -1,0 +1,88 @@
+notify = [ "/Users/rob/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended" ]
+
+[marketplaces.openai-bundled]
+last_updated = "2026-05-27T07:10:26Z"
+source_type = "local"
+source = "/Users/rob/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-05-27T07:10:53Z"
+source_type = "local"
+source = "/Users/rob/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."anthropic-skills@claude-cowork"]
+enabled = true
+
+[plugins."claude-orchestrator@claude-cowork"]
+enabled = true
+
+[plugins."cowork-plugin-management@claude-cowork"]
+enabled = true
+
+[plugins."data@claude-cowork"]
+enabled = true
+
+[plugins."engineering@claude-cowork"]
+enabled = true
+
+[plugins."enterprise-search@claude-cowork"]
+enabled = true
+
+[plugins."operations@claude-cowork"]
+enabled = true
+
+[features]
+js_repl = false
+
+[mcp_servers.node_repl]
+args = []
+command = "/Applications/Codex.app/Contents/Resources/node_repl"
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = ""
+NODE_REPL_NODE_PATH = "/Applications/Codex.app/Contents/Resources/node"
+NODE_REPL_TRUSTED_CODE_PATHS = "/Users/rob/.codex"
+BROWSER_USE_AVAILABLE_BACKENDS = "iab"
+BROWSER_USE_MARKETPLACE_NAME = "openai-bundled"
+NODE_REPL_UNTRUSTED_ENV_ALLOWLIST = "BROWSER_USE_MARKETPLACE_NAME"
+CODEX_HOME = "/Users/rob/.codex"
+CODEX_CLI_PATH = "/Applications/Codex.app/Contents/Resources/codex"
+
+[mcp_servers.happy-platform-mcp]
+command = "node"
+args = [ "/Users/rob/Documents/Claude/Projects/Happy-Platform-MCP/src/stdio-server.js" ]
+
+[mcp_servers.happy-platform-mcp.env]
+SERVICENOW_INSTANCE_URL = "https://dev395061.service-now.com"
+SERVICENOW_USERNAME = "__SET_LOCALLY__"
+SERVICENOW_PASSWORD = "__SET_LOCALLY__"
+SERVICENOW_AUTH_TYPE = "basic"
+
+[mcp_servers.obsidian]
+command = "npx"
+args = [ "-y", "obsidian-mcp-server" ]
+
+[mcp_servers.obsidian.env]
+OBSIDIAN_API_KEY = "__SET_LOCALLY__"
+OBSIDIAN_PROTOCOL = "http"
+OBSIDIAN_HOST = "127.0.0.1"
+OBSIDIAN_PORT = "27123"
+VERIFY_SSL = "false"
+REQUEST_TIMEOUT = "15000"
+
+[projects."/Users/rob/Documents/Ai governance"]
+trust_level = "trusted"

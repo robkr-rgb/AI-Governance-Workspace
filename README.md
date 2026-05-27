@@ -20,3 +20,16 @@ Current installed skill:
 - Installed copy: `/Users/rob/.codex/skills/project-source-of-truth/SKILL.md`
 
 When updating a skill, edit the Git-backed source first, then copy or sync it to the installed Codex skill path.
+
+## Codex Environment
+
+Git-backed Codex environment source lives under `codex/`.
+
+Runtime config remains installed under `/Users/rob/.codex`, but only portable, sanitized configuration is tracked here. Secrets, tokens, SQLite databases, session history, logs, plugin caches, and app bundles stay local.
+
+Start with:
+
+- `codex/config.toml` for sanitized Codex configuration
+- `codex/rules/default.rules` for command approval rules
+- `codex/SYNC_POLICY.md` for what is intentionally excluded
+- `codex/secrets.example.env` for required local secret names
