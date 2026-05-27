@@ -17,12 +17,22 @@ This file is the local map of active projects. Each project should have one cano
 | AI Governance Workspace | `./` | `https://github.com/robkr-rgb/AI-Governance-Workspace` | Active | GitHub repo + local clone | Private registry and operating layer for AI-assisted projects. |
 | ServiceNow Agentic Architect | `ServiceNow-Agentic-Architect/` | `https://github.com/robkr-rgb/ServiceNow-Agentic-Architect` | Active | GitHub repo + local clone | ServiceNow-native autonomous optimization agent. |
 | Van Oord IT Intake | `van-oord-it-intake/` | `https://github.com/robkr-rgb/van-oord-it-intake` | Active | GitHub repo + local clone | Private HTML project. |
-| Minions | `minions/` | `https://github.com/robkr-rgb/minions` | Active | GitHub repo + local clone | Private Python project. |
+| Minions | `minions/` | `https://github.com/robkr-rgb/minions` | Active | GitHub repo + local clone | Private Python project. Current workspace checkout uses branch `v0.5`. |
 | STT | `STT/` | `https://github.com/robkr-rgb/STT` | Active | GitHub repo + local clone | Private Python project. |
 | Sonar | `sonar/` | `https://github.com/robkr-rgb/sonar` | Active | GitHub repo + local clone | Private Python project. |
 | ServiceNow Architect Agent | `servicenow-architect-agent/` | `https://github.com/robkr-rgb/servicenow-architect-agent` | Active | GitHub repo + local clone | Private JavaScript project. |
 | Tic Tac Toe Game | `tictactoe-game/` | `https://github.com/robkr-rgb/tictactoe-game` | Active | GitHub repo + local clone | Private HTML project. Uses branch `TicTacToe`. |
 | Claude Config | `claude-config/` | `https://github.com/robkr-rgb/claude-config` | Active | GitHub repo + local clone | Private Python/config project. |
+| Happy Platform MCP Local | `happy-platform-mcp-local/` | `https://github.com/robkr-rgb/happy-platform-mcp-local` | Active | GitHub repo + local clone | Private personal mirror because upstream org repo denied push access. |
+| Home Agent | `home-agent/` | `https://github.com/robkr-rgb/home-agent` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
+| Homelab | `homelab/` | `https://github.com/robkr-rgb/homelab` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
+| QualityScan ServiceNow | `qualityscan-servicenow/` | `https://github.com/robkr-rgb/qualityscan-servicenow` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
+| QualityScan ServiceNow Scanner | `qualityscan-servicenow-scanner/` | `https://github.com/robkr-rgb/qualityscan-servicenow-scanner` | Active | GitHub repo + local clone | Migrated from Claude folder with a literal backslash in its name. |
+| Reverse Engineer SOLAR | `reverse-engineer-solar/` | `https://github.com/robkr-rgb/reverse-engineer-solar` | Active | GitHub repo + local clone | Uses Git LFS for a large `.mov` asset. |
+| ROBot | `robot/` | `https://github.com/robkr-rgb/robot` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
+| SONAR v2 | `sonar-v2/` | `https://github.com/robkr-rgb/sonar-v2` | Active | GitHub repo + local clone | Migrated from Claude project folder; `.env` ignored. |
+| TimeTracker | `timetracker/` | `https://github.com/robkr-rgb/timetracker` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
+| UniFi Network Audit & Hardening | `unifi-network-audit-hardening/` | `https://github.com/robkr-rgb/unifi-network-audit-hardening` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
 
 ## Standard Project Shape
 

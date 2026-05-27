@@ -7,6 +7,16 @@ sonar/
 servicenow-architect-agent/
 tictactoe-game/
 claude-config/
+happy-platform-mcp-local/
+home-agent/
+homelab/
+qualityscan-servicenow/
+qualityscan-servicenow-scanner/
+reverse-engineer-solar/
+robot/
+sonar-v2/
+timetracker/
+unifi-network-audit-hardening/
 
 # Local OS/editor noise.
 .DS_Store
