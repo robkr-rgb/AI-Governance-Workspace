@@ -21,6 +21,12 @@ Current installed skill:
 - Source: `skills/project-source-of-truth/SKILL.md`
 - Installed copy: `/Users/rob/.codex/skills/project-source-of-truth/SKILL.md`
 
+Extracted Claude skill:
+
+- Source: `skills/skills-auto-improver/`
+- Installed copy: `/Users/rob/.codex/skills/skills-auto-improver/`
+- Manifest: `claude/SKILLS_MANIFEST.md`
+
 When updating a skill, edit the Git-backed source first, then copy or sync it to the installed Codex skill path.
 
 ## Codex Environment

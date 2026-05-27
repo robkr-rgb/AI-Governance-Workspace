@@ -124,6 +124,18 @@ Codex runtime files intentionally not tracked include `auth.json`, SQLite databa
 
 Live credentials were found in the local runtime Codex config and were not committed. They should be stored outside Git and rotated if exposed.
 
+## Claude Skills
+
+Claude skills were inventoried and extracted where appropriate.
+
+| Source | Result |
+|---|---|
+| `/Users/rob/.claude/skills/skills-auto-improver` | Extracted to `skills/skills-auto-improver` and installed to `/Users/rob/.codex/skills/skills-auto-improver`. |
+| `/Users/rob/.claude/user-skills/skills-auto-improver/SKILL.md` | Verified as identical to the global Claude skill. |
+| Minions `.agents/skills` and `.claude/skills` | 59 project-scoped BMAD skills are already tracked in `minions` on branch `v0.5`; not duplicated here. |
+
+See `claude/SKILLS_MANIFEST.md`.
+
 ## Remaining Cleanup
 
 - Decide whether to archive or remove duplicate local clones after a cooling-off period.

@@ -228,6 +228,17 @@ Codex paths that must not be committed:
 
 If live credentials are found in local Codex config, do not print them in the final answer. Say they exist, keep them out of Git, and recommend rotating them if they were exposed.
 
+## Claude Skills Extraction
+
+When the user asks to extract Claude skills:
+
+1. Inventory `/Users/rob/.claude/skills`, `/Users/rob/.claude/user-skills`, and project-local `.claude/skills` or `.agents/skills`.
+2. Copy only portable skill files into the Git-backed `skills/` folder.
+3. Exclude `__pycache__`, `*.pyc`, caches, transcripts, plans, and local settings.
+4. Avoid duplicating identical skill trees in multiple Git-backed paths.
+5. Install extracted skills into `/Users/rob/.codex/skills/` when they should be available to Codex.
+6. Document project-scoped skills in `claude/SKILLS_MANIFEST.md` instead of duplicating them when another project repo already owns them.
+
 ## Forward Operating Model
 
 When explaining the way forward:

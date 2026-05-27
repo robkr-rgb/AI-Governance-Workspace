@@ -13,6 +13,7 @@ All new GitHub repositories should be private by default unless Rob explicitly r
 | `/Users/rob/.codex/config.toml` | `codex/config.toml` | Sanitized. Secret values are placeholders. |
 | `/Users/rob/.codex/rules/default.rules` | `codex/rules/default.rules` | Safe to sync. |
 | `/Users/rob/.codex/skills/project-source-of-truth/SKILL.md` | `skills/project-source-of-truth/SKILL.md` | Safe to sync. |
+| `/Users/rob/.codex/skills/skills-auto-improver/` | `skills/skills-auto-improver/` | Extracted from Claude and safe to sync. |
 
 ## Not Tracked In Git
 
