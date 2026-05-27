@@ -34,6 +34,7 @@ Global:
 
 - `skills-auto-improver`
 - `calendar-analysis`
+- `caveman`
 - `csdm-pptx`
 - `grill-with-docs`
 - `pptx`
@@ -47,6 +48,7 @@ Global:
 | Source | Git-backed source | Installed Codex copy | Notes |
 |---|---|---|---|
 | `mattpocock/skills`, `skills/engineering/grill-with-docs` | `skills/grill-with-docs` | `/Users/rob/.codex/skills/grill-with-docs` | Adopted into Rob's workflow for plan stress-testing, project glossary capture in `CONTEXT.md`, and ADR capture in `docs/adr/`. The Git-backed workspace copy is the source of truth; upstream changes should be reviewed before syncing. |
+| `mattpocock/skills`, `skills/productivity/caveman` | `skills/caveman` | `/Users/rob/.codex/skills/caveman` | Adopted as an opt-in ultra-compressed communication mode. Trigger only when Rob explicitly asks for terse output such as `caveman mode`, `use caveman`, `less tokens`, `be brief`, or `/caveman`. |
 
 Project-scoped in Minions:
 
