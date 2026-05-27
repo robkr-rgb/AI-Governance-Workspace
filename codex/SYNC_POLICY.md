@@ -4,6 +4,8 @@
 
 Git is the source of truth for Codex configuration and project operating rules, while secrets and volatile runtime state remain local.
 
+All new GitHub repositories should be private by default unless Rob explicitly requests public visibility.
+
 ## Tracked In Git
 
 | Runtime path | Git-backed source | Notes |

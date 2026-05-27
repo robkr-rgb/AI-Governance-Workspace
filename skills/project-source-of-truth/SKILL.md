@@ -38,7 +38,7 @@ Treat that folder as the control plane. Nested project folders are separate Git 
 - Older Claude/Cursor/local copies may be kept temporarily, but should not remain the active working copy after migration.
 - Never delete duplicate folders during migration unless the user explicitly asks.
 - Never commit secrets, `.env`, local settings, caches, build outputs, or OS noise.
-- Use private GitHub repos by default for migrated personal/local projects.
+- Create GitHub repositories as private by default for all new repos. Only create a public repo when the user explicitly asks for public visibility.
 - Treat AI tool configuration as source only after separating portable config from secrets and runtime state.
 
 ## Inventory Workflow
@@ -110,7 +110,7 @@ For a project-like folder without its own Git repo:
 2. Add a local `.gitignore` before `git add`.
 3. Initialize Git.
 4. Commit.
-5. Create a private GitHub repo.
+5. Create a private GitHub repo unless the user explicitly asks for a public repo.
 6. Push.
 7. Clone or pull it into the control workspace.
 8. Update `PROJECTS.md` and `REPO_VALIDATION.md`.
@@ -134,7 +134,7 @@ build/
 .~lock*
 ```
 
-Private repo creation pattern:
+Default repo creation pattern:
 
 ```bash
 git init -b main
@@ -142,6 +142,8 @@ git add .
 git commit -m "Initial commit: <project name>"
 gh repo create robkr-rgb/<repo-name> --private --source . --remote origin --push
 ```
+
+Never omit `--private` in automation unless the user explicitly requested a public repository.
 
 ## Reconciliation Workflow
 
@@ -258,3 +260,4 @@ Report clearly:
 - any repos with non-main branches
 - any Git LFS use
 - any duplicate local clones
+- whether any repo was intentionally created public

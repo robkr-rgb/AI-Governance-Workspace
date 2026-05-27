@@ -9,6 +9,7 @@ This file is the local map of active projects. Each project should have one cano
 - Cloud AI projects, Claude Code sessions, Codex threads, and chat histories are temporary workbenches.
 - Anything worth keeping should be written back to the relevant project repo.
 - Each active project should include a `.ai/` folder for portable context.
+- New GitHub repositories are private by default unless Rob explicitly asks for public visibility.
 
 ## Projects
 

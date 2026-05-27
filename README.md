@@ -4,6 +4,8 @@ This repository is the local control layer for AI-assisted work. It is intention
 
 Project source files should live in their own repositories beneath this folder, such as `ServiceNow-Agentic-Architect/`.
 
+Repository visibility default: create all new GitHub repositories as private unless Rob explicitly asks for a public repository.
+
 Start with:
 
 - `PROJECTS.md` for the project map

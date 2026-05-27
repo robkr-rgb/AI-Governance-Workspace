@@ -102,6 +102,7 @@ The following paths were discovered but intentionally not migrated as project so
 ## Notes
 
 - `ServiceNow-Agentic-Architect` remains public; all newly created repositories are private.
+- Going forward, new GitHub repositories should be private by default unless Rob explicitly asks for public visibility.
 - `tictactoe-game` uses branch `TicTacToe`.
 - `minions` has important local work on branch `v0.5`.
 - `reverse-engineer-solar` requires Git LFS for full fidelity because it includes a large video file.
