@@ -1,0 +1,7 @@
+# Nested project repositories are tracked by their own Git histories.
+ServiceNow-Agentic-Architect/
+
+# Local OS/editor noise.
+.DS_Store
+.idea/
+.vscode/
