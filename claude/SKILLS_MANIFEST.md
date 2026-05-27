@@ -35,11 +35,18 @@ Global:
 - `skills-auto-improver`
 - `calendar-analysis`
 - `csdm-pptx`
+- `grill-with-docs`
 - `pptx`
 - `reverse-engineer`
 - `skill-creator`
 - `van-oord-hld`
 - `vanoord-pptx`
+
+## Third-Party Adopted Skills
+
+| Source | Git-backed source | Installed Codex copy | Notes |
+|---|---|---|---|
+| `mattpocock/skills`, `skills/engineering/grill-with-docs` | `skills/grill-with-docs` | `/Users/rob/.codex/skills/grill-with-docs` | Adopted into Rob's workflow for plan stress-testing, project glossary capture in `CONTEXT.md`, and ADR capture in `docs/adr/`. The Git-backed workspace copy is the source of truth; upstream changes should be reviewed before syncing. |
 
 Project-scoped in Minions:
 

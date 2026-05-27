@@ -34,6 +34,7 @@ Treat that folder as the control plane. Nested project folders are separate Git 
 - Git is the durable source of truth.
 - AI tools are working surfaces, not the permanent record.
 - Durable output must land in project files and be committed.
+- For planning or design work that affects project direction, use `grill-with-docs` to challenge the plan against repo language, update `CONTEXT.md` when domain terms are resolved, and create ADRs only for durable architectural trade-offs.
 - Prefer one canonical clone under the control workspace for active work.
 - Older Claude/Cursor/local copies may be kept temporarily, but should not remain the active working copy after migration.
 - Never delete duplicate folders during migration unless the user explicitly asks.
@@ -199,6 +200,17 @@ Keep `REPO_VALIDATION.md` factual:
 - remaining cleanup
 
 Commit and push registry changes after each migration pass.
+
+## Planning And Decision Capture
+
+When a user asks to shape, validate, or stress-test a project plan:
+
+1. Prefer the Git-backed project clone under the control workspace.
+2. Use `grill-with-docs` before implementation when the plan affects domain language, architecture, workflow, data ownership, integrations, or long-lived repo structure.
+3. Read existing `CONTEXT.md`, `CONTEXT-MAP.md`, and `docs/adr/` files before asking questions.
+4. Update `CONTEXT.md` immediately when a project-specific term is resolved.
+5. Create ADRs sparingly for hard-to-reverse, surprising, trade-off-driven decisions.
+6. Commit and push the resulting documentation changes with the implementation or as their own source-of-truth update.
 
 ## Codex Environment Workflow
 
