@@ -1,5 +1,12 @@
 # Nested project repositories are tracked by their own Git histories.
 ServiceNow-Agentic-Architect/
+van-oord-it-intake/
+minions/
+STT/
+sonar/
+servicenow-architect-agent/
+tictactoe-game/
+claude-config/
 
 # Local OS/editor noise.
 .DS_Store

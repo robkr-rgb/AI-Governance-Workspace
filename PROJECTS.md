@@ -14,7 +14,15 @@ This file is the local map of active projects. Each project should have one cano
 
 | Project | Local path | Remote | Status | Source of truth | Notes |
 |---|---|---|---|---|---|
+| AI Governance Workspace | `./` | `https://github.com/robkr-rgb/AI-Governance-Workspace` | Active | GitHub repo + local clone | Private registry and operating layer for AI-assisted projects. |
 | ServiceNow Agentic Architect | `ServiceNow-Agentic-Architect/` | `https://github.com/robkr-rgb/ServiceNow-Agentic-Architect` | Active | GitHub repo + local clone | ServiceNow-native autonomous optimization agent. |
+| Van Oord IT Intake | `van-oord-it-intake/` | `https://github.com/robkr-rgb/van-oord-it-intake` | Active | GitHub repo + local clone | Private HTML project. |
+| Minions | `minions/` | `https://github.com/robkr-rgb/minions` | Active | GitHub repo + local clone | Private Python project. |
+| STT | `STT/` | `https://github.com/robkr-rgb/STT` | Active | GitHub repo + local clone | Private Python project. |
+| Sonar | `sonar/` | `https://github.com/robkr-rgb/sonar` | Active | GitHub repo + local clone | Private Python project. |
+| ServiceNow Architect Agent | `servicenow-architect-agent/` | `https://github.com/robkr-rgb/servicenow-architect-agent` | Active | GitHub repo + local clone | Private JavaScript project. |
+| Tic Tac Toe Game | `tictactoe-game/` | `https://github.com/robkr-rgb/tictactoe-game` | Active | GitHub repo + local clone | Private HTML project. Uses branch `TicTacToe`. |
+| Claude Config | `claude-config/` | `https://github.com/robkr-rgb/claude-config` | Active | GitHub repo + local clone | Private Python/config project. |
 
 ## Standard Project Shape
 
