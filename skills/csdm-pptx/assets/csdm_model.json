@@ -1,0 +1,417 @@
+{
+  "_comment": "Canonical CSDM v5 catalog extracted from Van Oord CSDM visualisation examples. Slide is 13.333 x 7.5 in (16:9). All positions and sizes are in inches. Fills are hex without #.",
+  "slide": {
+    "width_in": 13.333,
+    "height_in": 7.5,
+    "background_fill": "FFFFFF"
+  },
+  "domains": [
+    {
+      "id": "build_integration",
+      "label": "BUILD & INTEGRATION",
+      "label_position": {"x": 2.55, "y": 0.55, "w": 1.80, "h": 0.35, "anchor": "outside_left"},
+      "region": {"x": 4.39, "y": 0.55, "w": 1.55, "h": 3.15, "shape": "roundRect"},
+      "fill": "FC7786",
+      "stroke": "FC7786",
+      "text_color": "FC7786"
+    },
+    {
+      "id": "design_planning",
+      "label": "DESIGN & PLANNING",
+      "label_position": {"x": 10.30, "y": 0.90, "w": 2.00, "h": 0.35, "anchor": "outside_right"},
+      "region": {"x": 7.41, "y": 1.19, "w": 2.79, "h": 1.42, "shape": "roundRect"},
+      "fill": "24C2CE",
+      "stroke": "24C2CE",
+      "text_color": "24C2CE"
+    },
+    {
+      "id": "ideation_strategy",
+      "label": "IDEATION & STRATEGY",
+      "label_position": {"x": 11.15, "y": 2.45, "w": 2.10, "h": 0.35, "anchor": "outside_right"},
+      "region": {"x": 7.75, "y": 2.73, "w": 3.30, "h": 0.68, "shape": "roundRect"},
+      "fill": "FFDE1D",
+      "stroke": "DDBC00",
+      "text_color": "A07C00"
+    },
+    {
+      "id": "service_delivery",
+      "label": "SERVICE DELIVERY",
+      "label_position": {"x": 0.30, "y": 2.55, "w": 2.00, "h": 0.35, "anchor": "outside_left"},
+      "region": {"x": 2.30, "y": 2.80, "w": 4.80, "h": 2.60, "shape": "roundRect"},
+      "fill": "F19714",
+      "stroke": "F19714",
+      "text_color": "F19714"
+    },
+    {
+      "id": "service_consumption",
+      "label": "SERVICE CONSUMPTION",
+      "label_position": {"x": 10.95, "y": 3.10, "w": 2.30, "h": 0.35, "anchor": "outside_right"},
+      "region": {"x": 7.60, "y": 3.30, "w": 3.30, "h": 2.10, "shape": "roundRect"},
+      "fill": "54C45E",
+      "stroke": "54C45E",
+      "text_color": "2E7D32"
+    },
+    {
+      "id": "service_consumption_catalog",
+      "label": "",
+      "region": {"x": 7.80, "y": 4.15, "w": 2.92, "h": 0.80, "shape": "roundRect"},
+      "fill": "86ED78",
+      "stroke": "54C45E",
+      "text_color": "2E7D32",
+      "parent": "service_consumption",
+      "_note": "Nested lighter-green 'Catalog' band inside Service Consumption"
+    },
+    {
+      "id": "manage_portfolio",
+      "label": "MANAGE PORTFOLIO",
+      "label_position": {"x": 5.70, "y": 2.45, "w": 1.80, "h": 0.70, "anchor": "inside"},
+      "region": {"x": 5.65, "y": 2.35, "w": 1.90, "h": 0.90, "shape": "ellipse"},
+      "fill": "FFFFFF",
+      "stroke": "808080",
+      "text_color": "404040"
+    },
+    {
+      "id": "foundation",
+      "label": "FOUNDATION",
+      "label_position": {"x": 0.35, "y": 5.85, "w": 1.30, "h": 0.30, "anchor": "inside"},
+      "region": {"x": 0.25, "y": 5.80, "w": 12.80, "h": 1.10, "shape": "rect"},
+      "fill": "F2F2F2",
+      "stroke": "BFBFBF",
+      "text_color": "595959"
+    }
+  ],
+  "objects": [
+    {
+      "canonical": "Business Capability",
+      "synonyms": ["BC", "capability", "business capabilities"],
+      "domain": "design_planning",
+      "position": {"x": 7.75, "y": 1.41, "w": 0.99, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Business Application",
+      "synonyms": ["BA", "app", "application", "biz app"],
+      "domain": "design_planning",
+      "position": {"x": 7.72, "y": 1.95, "w": 0.99, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Information Object",
+      "synonyms": ["IO", "info object", "data object"],
+      "domain": "design_planning",
+      "position": {"x": 8.93, "y": 1.95, "w": 0.99, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "SDLC Component",
+      "synonyms": ["SDLCComponent", "subsystem", "software component"],
+      "domain": "build_integration",
+      "position": {"x": 4.85, "y": 0.78, "w": 1.20, "h": 0.48},
+      "shape": "rect",
+      "fill": "FFFFFF",
+      "stacked": 3
+    },
+    {
+      "canonical": "DevOps Change Data Model",
+      "synonyms": ["DevOps CDM", "change data model", "DevOps"],
+      "domain": "build_integration",
+      "position": {"x": 3.87, "y": 1.76, "w": 1.05, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Planning Item",
+      "synonyms": ["planning items", "plan item"],
+      "domain": "ideation_strategy",
+      "position": {"x": 8.18, "y": 2.87, "w": 1.07, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Product Idea",
+      "synonyms": ["idea", "product ideas"],
+      "domain": "ideation_strategy",
+      "position": {"x": 9.43, "y": 2.87, "w": 1.07, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Service Instance",
+      "synonyms": ["SI", "instance", "service instances"],
+      "domain": "service_delivery",
+      "position": {"x": 5.55, "y": 3.60, "w": 1.07, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Application Service",
+      "synonyms": ["app service", "application services"],
+      "domain": "service_delivery",
+      "position": {"x": 5.68, "y": 3.84, "w": 1.04, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Technology Management Service",
+      "synonyms": ["TMS", "Technology Mgmt Service", "tech mgmt service"],
+      "domain": "service_delivery",
+      "position": {"x": 2.60, "y": 3.84, "w": 0.80, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF",
+      "variant": "upper"
+    },
+    {
+      "canonical": "Technology Management Offering",
+      "synonyms": ["TMO", "tech mgmt offering"],
+      "domain": "service_delivery",
+      "position": {"x": 3.54, "y": 3.84, "w": 0.98, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF",
+      "variant": "upper"
+    },
+    {
+      "canonical": "Technology Management Service (lower)",
+      "synonyms": [],
+      "domain": "service_delivery",
+      "position": {"x": 2.60, "y": 4.67, "w": 0.80, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF",
+      "variant": "lower",
+      "alias_of": "Technology Management Service"
+    },
+    {
+      "canonical": "Technology Management Offering (lower)",
+      "synonyms": [],
+      "domain": "service_delivery",
+      "position": {"x": 3.53, "y": 4.67, "w": 0.98, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF",
+      "variant": "lower",
+      "alias_of": "Technology Management Offering"
+    },
+    {
+      "canonical": "Dynamic CI Group",
+      "synonyms": ["dynamic CI", "CI group", "DCIG"],
+      "domain": "service_delivery",
+      "position": {"x": 4.62, "y": 4.67, "w": 0.80, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Service Delivery System",
+      "synonyms": ["SDS", "delivery system"],
+      "domain": "service_delivery",
+      "position": {"x": 5.50, "y": 4.57, "w": 1.51, "h": 0.80},
+      "shape": "cloudCallout",
+      "fill": "FFFFFF",
+      "stroke": "F19714"
+    },
+    {
+      "canonical": "Business Offering",
+      "synonyms": ["offering"],
+      "domain": "service_consumption",
+      "position": {"x": 8.15, "y": 3.60, "w": 1.01, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Business Service",
+      "synonyms": ["BS"],
+      "domain": "service_consumption",
+      "position": {"x": 9.32, "y": 3.60, "w": 1.00, "h": 0.40},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Service Catalog",
+      "synonyms": ["svc catalog"],
+      "domain": "service_consumption_catalog",
+      "position": {"x": 8.07, "y": 4.22, "w": 0.82, "h": 0.46},
+      "shape": "roundRect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Product Catalog",
+      "synonyms": ["prod catalog"],
+      "domain": "service_consumption_catalog",
+      "position": {"x": 9.02, "y": 4.22, "w": 0.82, "h": 0.46},
+      "shape": "roundRect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Sales Catalog",
+      "synonyms": [],
+      "domain": "service_consumption_catalog",
+      "position": {"x": 9.97, "y": 4.22, "w": 0.82, "h": 0.46},
+      "shape": "roundRect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Value Stream",
+      "synonyms": [],
+      "domain": "foundation",
+      "position": {"x": 1.85, "y": 6.00, "w": 1.00, "h": 0.36},
+      "shape": "chevron",
+      "fill": "BFBFBF"
+    },
+    {
+      "canonical": "Business Process",
+      "synonyms": ["process"],
+      "domain": "foundation",
+      "position": {"x": 3.01, "y": 6.00, "w": 0.78, "h": 0.36},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Contracts",
+      "synonyms": ["contract"],
+      "domain": "foundation",
+      "position": {"x": 3.92, "y": 6.00, "w": 0.78, "h": 0.36},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Products (Models)",
+      "synonyms": ["product model", "product models", "products"],
+      "domain": "foundation",
+      "position": {"x": 4.83, "y": 6.00, "w": 0.78, "h": 0.29},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Product Feature",
+      "synonyms": ["feature"],
+      "domain": "foundation",
+      "position": {"x": 4.93, "y": 6.20, "w": 0.78, "h": 0.29},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "SBOM",
+      "synonyms": ["software bill of materials"],
+      "domain": "foundation",
+      "position": {"x": 5.89, "y": 6.00, "w": 0.78, "h": 0.36},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "CMDB Group",
+      "synonyms": ["CMDB"],
+      "domain": "foundation",
+      "position": {"x": 6.89, "y": 6.00, "w": 0.78, "h": 0.36},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Locations",
+      "synonyms": ["location"],
+      "domain": "foundation",
+      "position": {"x": 7.80, "y": 6.00, "w": 0.70, "h": 0.29},
+      "shape": "rect",
+      "fill": "FFFFFF",
+      "stacked": 3
+    },
+    {
+      "canonical": "Teams",
+      "synonyms": ["team"],
+      "domain": "foundation",
+      "position": {"x": 8.56, "y": 6.00, "w": 0.66, "h": 0.36},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Groups",
+      "synonyms": ["group"],
+      "domain": "foundation",
+      "position": {"x": 9.26, "y": 6.00, "w": 0.66, "h": 0.36},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Users",
+      "synonyms": ["user"],
+      "domain": "foundation",
+      "position": {"x": 9.96, "y": 6.00, "w": 0.66, "h": 0.36},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Company",
+      "synonyms": [],
+      "domain": "foundation",
+      "position": {"x": 10.75, "y": 6.00, "w": 0.81, "h": 0.27},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Business Unit",
+      "synonyms": ["BU"],
+      "domain": "foundation",
+      "position": {"x": 10.83, "y": 6.20, "w": 0.81, "h": 0.27},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Department",
+      "synonyms": ["dept"],
+      "domain": "foundation",
+      "position": {"x": 10.91, "y": 6.40, "w": 0.81, "h": 0.25},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    },
+    {
+      "canonical": "Life Cycle",
+      "synonyms": ["lifecycle"],
+      "domain": "foundation",
+      "position": {"x": 11.85, "y": 6.00, "w": 0.85, "h": 0.36},
+      "shape": "rect",
+      "fill": "FFFFFF"
+    }
+  ],
+  "roles": [
+    {"canonical": "Enterprise Architect",        "synonyms": ["EA"],             "position": {"x": 11.60, "y": 0.45, "w": 1.40, "h": 0.44}, "anchor": "right"},
+    {"canonical": "Digital Product Owner",       "synonyms": ["DPO"],            "position": {"x": 11.60, "y": 1.17, "w": 1.40, "h": 0.44}, "anchor": "right"},
+    {"canonical": "Product Owner",               "synonyms": ["PO"],             "position": {"x": 11.60, "y": 2.80, "w": 1.40, "h": 0.44}, "anchor": "right"},
+    {"canonical": "Business Relationship Manager","synonyms": ["BRM"],           "position": {"x": 11.60, "y": 3.55, "w": 1.40, "h": 0.55}, "anchor": "right"},
+    {"canonical": "Customer Service Manager",    "synonyms": ["CSM"],            "position": {"x": 11.60, "y": 4.40, "w": 1.40, "h": 0.55}, "anchor": "right"},
+    {"canonical": "Teams (role)",                "synonyms": ["build team"],     "position": {"x": 2.45, "y": 1.75, "w": 0.95, "h": 0.44}, "anchor": "left"},
+    {"canonical": "Service Instance Owner",      "synonyms": ["SI Owner"],       "position": {"x": 1.05, "y": 3.60, "w": 1.25, "h": 0.44}, "anchor": "left"},
+    {"canonical": "Service Delivery Owner",      "synonyms": ["SD Owner"],       "position": {"x": 1.05, "y": 4.30, "w": 1.25, "h": 0.44}, "anchor": "left"},
+    {"canonical": "Service Provider (Delivery)", "synonyms": ["service provider"],"position": {"x": 1.00, "y": 5.10, "w": 1.30, "h": 0.44}, "anchor": "left"},
+    {"canonical": "Process Owner",               "synonyms": [],                 "position": {"x": 3.15, "y": 6.62, "w": 0.80, "h": 0.44}, "anchor": "below"},
+    {"canonical": "Contract Manager",            "synonyms": [],                 "position": {"x": 4.05, "y": 6.62, "w": 0.90, "h": 0.44}, "anchor": "below"},
+    {"canonical": "Product Owner (Foundation)",  "synonyms": [],                 "position": {"x": 5.55, "y": 6.62, "w": 0.80, "h": 0.44}, "anchor": "below", "alias_of": "Product Owner"},
+    {"canonical": "Data Steward",                "synonyms": [],                 "position": {"x": 8.40, "y": 6.62, "w": 0.85, "h": 0.44}, "anchor": "below"}
+  ],
+  "standard_relationships": [
+    {"from": "Business Capability", "to": "Business Application",        "label": "realizes", "connector": "straightConnector1"},
+    {"from": "Business Application","to": "Information Object",          "label": "references","connector": "straightConnector1"},
+    {"from": "Business Application","to": "SDLC Component",              "label": "implements","connector": "bentConnector3"},
+    {"from": "Service Instance",    "to": "Business Application",        "label": "hosts",     "connector": "bentConnector3"},
+    {"from": "Service Instance",    "to": "Technology Management Service","label": "consumes", "connector": "straightConnector1"},
+    {"from": "Service Instance",    "to": "Application Service",         "label": "provides",  "connector": "straightConnector1"},
+    {"from": "Business Offering",   "to": "Business Service",            "label": "packages",  "connector": "straightConnector1"},
+    {"from": "Business Service",    "to": "Service Instance",            "label": "delivered by","connector": "bentConnector3"},
+    {"from": "Business Offering",   "to": "Product Catalog",             "label": "listed in", "connector": "bentConnector3"},
+    {"from": "Planning Item",       "to": "Product Idea",                "label": "refines",   "connector": "bentConnector3"},
+    {"from": "Product Idea",        "to": "Business Capability",         "label": "targets",   "connector": "bentConnector4"},
+    {"from": "Technology Management Service","to": "Technology Management Offering","label": "offers","connector": "straightConnector1"},
+    {"from": "Dynamic CI Group",    "to": "Service Delivery System",     "label": "monitors",  "connector": "bentConnector3"}
+  ],
+  "connector_style": {
+    "default_color": "000000",
+    "default_width_pt": 1.0,
+    "arrow_end": true,
+    "label_font_size_pt": 8
+  },
+  "text_style": {
+    "object_font": "Calibri",
+    "object_font_size_pt": 9,
+    "domain_label_font_size_pt": 14,
+    "domain_label_bold": true,
+    "title_font_size_pt": 22
+  }
+}

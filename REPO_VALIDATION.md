@@ -132,6 +132,8 @@ Claude skills were inventoried and extracted where appropriate.
 |---|---|
 | `/Users/rob/.claude/skills/skills-auto-improver` | Extracted to `skills/skills-auto-improver` and installed to `/Users/rob/.codex/skills/skills-auto-improver`. |
 | `/Users/rob/.claude/user-skills/skills-auto-improver/SKILL.md` | Verified as identical to the global Claude skill. |
+| Claude UI personal skills plugin storage | Extracted `calendar-analysis`, `csdm-pptx`, `pptx`, `reverse-engineer`, `skill-creator`, and `van-oord-hld` to `skills/` and installed them to `/Users/rob/.codex/skills/`. |
+| Claude generated `vanoord-pptx` skill artifact | Extracted to `skills/vanoord-pptx` and installed to `/Users/rob/.codex/skills/vanoord-pptx`. |
 | Minions `.agents/skills` and `.claude/skills` | 59 project-scoped BMAD skills are already tracked in `minions` on branch `v0.5`; not duplicated here. |
 
 See `claude/SKILLS_MANIFEST.md`.

@@ -14,6 +14,13 @@ All new GitHub repositories should be private by default unless Rob explicitly r
 | `/Users/rob/.codex/rules/default.rules` | `codex/rules/default.rules` | Safe to sync. |
 | `/Users/rob/.codex/skills/project-source-of-truth/SKILL.md` | `skills/project-source-of-truth/SKILL.md` | Safe to sync. |
 | `/Users/rob/.codex/skills/skills-auto-improver/` | `skills/skills-auto-improver/` | Extracted from Claude and safe to sync. |
+| `/Users/rob/.codex/skills/calendar-analysis/` | `skills/calendar-analysis/` | Extracted from Claude UI personal skills. |
+| `/Users/rob/.codex/skills/csdm-pptx/` | `skills/csdm-pptx/` | Extracted from Claude UI personal skills. |
+| `/Users/rob/.codex/skills/pptx/` | `skills/pptx/` | Extracted from Claude UI personal skills. |
+| `/Users/rob/.codex/skills/reverse-engineer/` | `skills/reverse-engineer/` | Extracted from Claude UI personal skills. |
+| `/Users/rob/.codex/skills/skill-creator/` | `skills/skill-creator/` | Extracted from Claude UI personal skills. |
+| `/Users/rob/.codex/skills/van-oord-hld/` | `skills/van-oord-hld/` | Extracted from Claude UI personal skills. |
+| `/Users/rob/.codex/skills/vanoord-pptx/` | `skills/vanoord-pptx/` | Extracted from Claude generated skill artifact. |
 
 ## Not Tracked In Git
 

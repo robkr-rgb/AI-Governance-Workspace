@@ -2,11 +2,18 @@
 
 Extraction date: 2026-05-27
 
-## Global Claude Skills
+## Claude UI Personal Skills
 
 | Claude source | Git-backed source | Installed Codex copy | Notes |
 |---|---|---|---|
 | `/Users/rob/.claude/skills/skills-auto-improver` | `skills/skills-auto-improver` | `/Users/rob/.codex/skills/skills-auto-improver` | Extracted from Claude and installed for Codex. `__pycache__` files and Claude README were excluded. |
+| Claude skills plugin storage: `calendar-analysis` | `skills/calendar-analysis` | `/Users/rob/.codex/skills/calendar-analysis` | Extracted from Claude UI personal skills. |
+| Claude skills plugin storage: `csdm-pptx` | `skills/csdm-pptx` | `/Users/rob/.codex/skills/csdm-pptx` | Extracted from Claude UI personal skills. |
+| Claude skills plugin storage: `pptx` | `skills/pptx` | `/Users/rob/.codex/skills/pptx` | Extracted from Claude UI personal skills. |
+| Claude skills plugin storage: `reverse-engineer` | `skills/reverse-engineer` | `/Users/rob/.codex/skills/reverse-engineer` | Extracted from Claude UI personal skills. |
+| Claude skills plugin storage: `skill-creator` | `skills/skill-creator` | `/Users/rob/.codex/skills/skill-creator` | Extracted from Claude UI personal skills. |
+| Claude skills plugin storage: `van-oord-hld` | `skills/van-oord-hld` | `/Users/rob/.codex/skills/van-oord-hld` | Extracted from Claude UI personal skills. |
+| Claude generated skill artifact: `vanoord-pptx` | `skills/vanoord-pptx` | `/Users/rob/.codex/skills/vanoord-pptx` | Extracted from Claude local session output; this corresponds to the greyed UI item. |
 
 `/Users/rob/.claude/user-skills/skills-auto-improver/SKILL.md` was checked and matched the global Claude skill.
 
@@ -26,6 +33,13 @@ Those skills were already committed and pushed with the Minions project. They ar
 Global:
 
 - `skills-auto-improver`
+- `calendar-analysis`
+- `csdm-pptx`
+- `pptx`
+- `reverse-engineer`
+- `skill-creator`
+- `van-oord-hld`
+- `vanoord-pptx`
 
 Project-scoped in Minions:
 

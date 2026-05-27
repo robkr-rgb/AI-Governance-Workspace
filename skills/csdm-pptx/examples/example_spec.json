@@ -1,0 +1,34 @@
+{
+  "title": "Service Instance hosting a Business Application",
+  "subtitle": "Simplified CSDM v5 view showing application-to-instance mapping",
+  "objects": [
+    "Business Capability",
+    "Business Application",
+    "Information Object",
+    "Service Instance",
+    "Application Service",
+    "Technology Management Service",
+    "Technology Management Offering",
+    "Business Offering",
+    "Business Service",
+    "Service Catalog"
+  ],
+  "roles": [
+    "Digital Product Owner",
+    "Service Instance Owner",
+    "Customer Service Manager"
+  ],
+  "relationships": [
+    {"from": "Business Capability",  "to": "Business Application",           "label": "realizes",    "style": "straight"},
+    {"from": "Business Application", "to": "Information Object",             "label": "references",  "style": "straight"},
+    {"from": "Service Instance",     "to": "Business Application",           "label": "hosts",       "style": "bent"},
+    {"from": "Service Instance",     "to": "Application Service",            "label": "provides",    "style": "straight"},
+    {"from": "Service Instance",     "to": "Technology Management Service",  "label": "consumes",    "style": "straight"},
+    {"from": "Technology Management Service", "to": "Technology Management Offering", "label": "offers", "style": "straight"},
+    {"from": "Business Offering",    "to": "Business Service",               "label": "packages",    "style": "straight"},
+    {"from": "Business Service",     "to": "Service Instance",               "label": "delivered by","style": "bent"},
+    {"from": "Business Offering",    "to": "Service Catalog",                "label": "listed in",   "style": "bent"}
+  ],
+  "hide_empty_domains": false,
+  "show_domain_labels": true
+}
