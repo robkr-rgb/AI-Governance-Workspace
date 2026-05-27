@@ -23,6 +23,7 @@ This file is the local map of active projects. Each project should have one cano
 | ServiceNow Architect Agent | `servicenow-architect-agent/` | `https://github.com/robkr-rgb/servicenow-architect-agent` | Active | GitHub repo + local clone | Private JavaScript project. |
 | Tic Tac Toe Game | `tictactoe-game/` | `https://github.com/robkr-rgb/tictactoe-game` | Active | GitHub repo + local clone | Private HTML project. Uses branch `TicTacToe`. |
 | Claude Config | `claude-config/` | `https://github.com/robkr-rgb/claude-config` | Active | GitHub repo + local clone | Private Python/config project. |
+| Cursor Test | `cursor-test/` | `https://github.com/robkr-rgb/cursor-test` | Active | GitHub repo + local clone | Migrated from `/Users/rob/Documents/Cursortest`. |
 | Happy Platform MCP Local | `happy-platform-mcp-local/` | `https://github.com/robkr-rgb/happy-platform-mcp-local` | Active | GitHub repo + local clone | Private personal mirror because upstream org repo denied push access. |
 | Home Agent | `home-agent/` | `https://github.com/robkr-rgb/home-agent` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
 | Homelab | `homelab/` | `https://github.com/robkr-rgb/homelab` | Active | GitHub repo + local clone | Migrated from Claude project folder. |

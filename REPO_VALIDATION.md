@@ -32,6 +32,7 @@ The central AI Governance workspace contains clean local clones for all `robkr-r
 | `servicenow-architect-agent` | `servicenow-architect-agent/` | `main` | Clean | Yes | 52 |
 | `tictactoe-game` | `tictactoe-game/` | `TicTacToe` | Clean | Yes | 3 |
 | `claude-config` | `claude-config/` | `main` | Clean | Yes | 19 |
+| `cursor-test` | `cursor-test/` | `main` | Clean | No | 2 |
 | `happy-platform-mcp-local` | `happy-platform-mcp-local/` | `main` | Clean | Yes | 115 |
 | `home-agent` | `home-agent/` | `main` | Clean | No | 2 |
 | `homelab` | `homelab/` | `main` | Clean | No | 3 |
@@ -59,6 +60,12 @@ The following folders under `/Users/rob/Documents/Claude/Projects` were initiali
 | `TimeTracker` | `https://github.com/robkr-rgb/timetracker` | Private repo created. |
 | `UniFi Network Audit & Hardening` | `https://github.com/robkr-rgb/unifi-network-audit-hardening` | Private repo created. |
 
+## Migrated Cursor Project Folders
+
+| Local folder | Repository | Notes |
+|---|---|---|
+| `/Users/rob/Documents/Cursortest` | `https://github.com/robkr-rgb/cursor-test` | Private repo created. `.claude/settings.local.json` ignored as local tool state. |
+
 ## Reconciled Existing Claude Repos
 
 The following existing Claude project folders had local-only work. That work is now committed and pushed:
@@ -79,6 +86,16 @@ These folders are clean clones of repositories that are also represented in the 
 |---|---|---|
 | `/Users/rob/code/claude-config` | `git@github.com:robkr-rgb/claude-config.git` | Clean duplicate clone. |
 | `/Users/rob/tictactoe-game` | `https://github.com/robkr-rgb/tictactoe-game.git` | Clean duplicate clone. |
+
+## Local Tool State Not Migrated
+
+The following paths were discovered but intentionally not migrated as project source:
+
+| Path | Reason |
+|---|---|
+| `/Users/rob/.claude/projects/-Users-rob-Documents-Cursortest` | Claude transcript/state storage, not canonical project source. |
+| `/Users/rob/Library/Application Support/Cursor` | Cursor application state, not project source. |
+| `/Users/rob/Documents/ObsidianVault` | Personal vault; contains `CLAUDE.md`, but was not treated as a project repo in this pass. |
 
 ## Notes
 
