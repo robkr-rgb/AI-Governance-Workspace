@@ -1,6 +1,6 @@
 # Repository Validation
 
-Validation date: 2026-05-27
+Validation date: 2026-05-28
 
 ## Scope
 
@@ -26,6 +26,7 @@ The central AI Governance workspace contains clean local clones for all `robkr-r
 | Repository | Local path | Branch | Git state | README | Tracked files |
 |---|---|---:|---|---|---:|
 | `AI-Governance-Workspace` | `./` | `main` | Clean | Yes | 4 |
+| `appy-runs-servicenow-integration` | `appy-runs-servicenow-integration/` | `main` | Clean | Yes | 7 |
 | `ServiceNow-Agentic-Architect` | `ServiceNow-Agentic-Architect/` | `main` | Clean | Yes | 22 |
 | `van-oord-it-intake` | `van-oord-it-intake/` | `main` | Clean | Yes | 11 |
 | `minions` | `minions/` | `v0.5` | Clean | Yes | 759 |
@@ -101,7 +102,8 @@ The following paths were discovered but intentionally not migrated as project so
 
 ## Notes
 
-- `ServiceNow-Agentic-Architect` remains public; all newly created repositories are private.
+- `ServiceNow-Agentic-Architect` is now private; all newly created repositories are private by default.
+- `appy-runs-servicenow-integration` was created as a private documentation workspace for the Appy Runs to ServiceNow integration document.
 - Going forward, new GitHub repositories should be private by default unless Rob explicitly asks for public visibility.
 - `tictactoe-game` uses branch `TicTacToe`.
 - `minions` has important local work on branch `v0.5`.
