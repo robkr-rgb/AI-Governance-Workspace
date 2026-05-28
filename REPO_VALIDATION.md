@@ -144,3 +144,13 @@ See `claude/SKILLS_MANIFEST.md`.
 - Add `README.md` files to migrated repos that do not yet have one.
 - Add `.ai/` context folders to active repos as they become current work.
 - Revoke any exposed GitHub personal access token and rotate it if not already done.
+
+## 2026-05-28 Update: Asiresolutions
+
+Created a new Git-backed project using the AI Governance workspace standard.
+
+| Project | Local path | Repository | Branch | Result |
+|---|---|---|---|---|
+| Asiresolutions | `/Users/rob/Documents/Ai governance/asiresolutions` | `https://github.com/robkr-rgb/asiresolutions` | `main` | Private repository created, initial scaffold committed, and branch pushed. |
+
+The project includes `README.md`, `PROJECT.md`, `.ai/context.md`, `.ai/tasks.md`, `.ai/decisions.md`, `.ai/prompts.md`, `docs/`, and `src/`.

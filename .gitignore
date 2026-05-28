@@ -18,6 +18,7 @@ robot/
 sonar-v2/
 timetracker/
 unifi-network-audit-hardening/
+asiresolutions/
 
 # Local OS/editor noise.
 .DS_Store
