@@ -35,7 +35,7 @@ This file is the local map of active projects. Each project should have one cano
 | SONAR v2 | `sonar-v2/` | `https://github.com/robkr-rgb/sonar-v2` | Active | GitHub repo + local clone | Migrated from Claude project folder; `.env` ignored. |
 | TimeTracker | `timetracker/` | `https://github.com/robkr-rgb/timetracker` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
 | UniFi Network Audit & Hardening | `unifi-network-audit-hardening/` | `https://github.com/robkr-rgb/unifi-network-audit-hardening` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
-| Asiresolutions | `asiresolutions/` | `https://github.com/robkr-rgb/asiresolutions` | Active | GitHub repo + local clone | Private project scaffold using the standard `.ai/` context setup. |
+| Aspiresolutions | `aspiresolutions/` | `https://github.com/robkr-rgb/aspiresolutions` | Active | GitHub repo + local clone | Private project scaffold using the standard `.ai/` context setup. |
 
 ## Standard Project Shape
 
