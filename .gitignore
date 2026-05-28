@@ -19,6 +19,7 @@ sonar-v2/
 timetracker/
 unifi-network-audit-hardening/
 aspiresolutions/
+appy-runs-servicenow-integration/
 
 # Local OS/editor noise.
 .DS_Store
