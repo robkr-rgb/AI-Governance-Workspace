@@ -37,6 +37,7 @@ This file is the local map of active projects. Each project should have one cano
 | TimeTracker | `timetracker/` | `https://github.com/robkr-rgb/timetracker` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
 | UniFi Network Audit & Hardening | `unifi-network-audit-hardening/` | `https://github.com/robkr-rgb/unifi-network-audit-hardening` | Active | GitHub repo + local clone | Migrated from Claude project folder. |
 | Aspiresolutions | `aspiresolutions/` | `https://github.com/robkr-rgb/aspiresolutions` | Active | GitHub repo + local clone | Private project scaffold using the standard `.ai/` context setup. |
+| Bruiloft Planner | `bruiloft-planner/` | `https://github.com/robkr-rgb/bruiloft-planner` | Active | GitHub repo + local clone | Private personal wedding-planning single-page React app (HTML/JSX, client-side, localStorage). |
 
 ## Standard Project Shape
 
