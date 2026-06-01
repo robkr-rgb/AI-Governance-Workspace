@@ -156,3 +156,13 @@ Created a new Git-backed project using the AI Governance workspace standard.
 | Aspiresolutions | `/Users/rob/Documents/Ai governance/aspiresolutions` | `https://github.com/robkr-rgb/aspiresolutions` | `main` | Private repository created, initial scaffold committed, and branch pushed. |
 
 The project includes `README.md`, `PROJECT.md`, `.ai/context.md`, `.ai/tasks.md`, `.ai/decisions.md`, `.ai/prompts.md`, `docs/`, and `src/`.
+
+## 2026-06-01 Update: Bruiloft Planner
+
+Created a new Git-backed project for the bruiloft-planner artifact, migrated from `/Users/rob/Downloads/bruiloft-planner_1.{jsx,html}`.
+
+| Project | Local path | Repository | Branch | Result |
+|---|---|---|---|---|
+| Bruiloft Planner | `/Users/rob/Documents/Ai governance/bruiloft-planner` | `https://github.com/robkr-rgb/bruiloft-planner` | `main` | Private repository created, initial scaffold committed, and branch pushed. |
+
+The project includes `README.md`, `PROJECT.md`, `.ai/context.md`, `.ai/tasks.md`, `.ai/decisions.md`, `.ai/prompts.md`, `docs/architecture.md`, `docs/data-model.md`, `docs/running-locally.md`, and `src/` with the planner HTML + JSX (single-page React app, client-side, localStorage persistence).
