@@ -166,3 +166,21 @@ Created a new Git-backed project for the bruiloft-planner artifact, migrated fro
 | Bruiloft Planner | `/Users/rob/Documents/Ai governance/bruiloft-planner` | `https://github.com/robkr-rgb/bruiloft-planner` | `main` | Private repository created, initial scaffold committed, and branch pushed. |
 
 The project includes `README.md`, `PROJECT.md`, `.ai/context.md`, `.ai/tasks.md`, `.ai/decisions.md`, `.ai/prompts.md`, `docs/architecture.md`, `docs/data-model.md`, `docs/running-locally.md`, and `src/` with the planner HTML + JSX (single-page React app, client-side, localStorage persistence).
+
+## 2026-06-10 Update: Abundly Refactor
+
+Registered and pushed the Abundly Refactor governed-agent prototype into the AI Governance workspace as a repo subfolder.
+
+| Project | Local path | Repository | Branch | Result |
+|---|---|---|---|---|
+| Abundly Refactor | `abundly-refactor/` | `https://github.com/robkr-rgb/AI-Governance-Workspace/tree/main/abundly-refactor` | `main` | Project added to workspace repo, registry updated, source committed, and branch pushed. |
+
+The project includes `README.md`, `PROJECT.md`, `.ai/context.md`, `docs/implementation-notes.md`, `outputs/abundly-build-scope.html`, `server/`, `src/`, Vite/TypeScript configuration, and package lockfile. Generated folders such as `node_modules/`, `dist/`, and local JSON state remain ignored.
+
+Validation performed inside the copied project folder:
+
+```bash
+npm ci
+npm run lint
+npm run build
+```
