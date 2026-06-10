@@ -16,6 +16,7 @@ This file is the local map of active projects. Each project should have one cano
 | Project | Local path | Remote | Status | Source of truth | Notes |
 |---|---|---|---|---|---|
 | AI Governance Workspace | `./` | `https://github.com/robkr-rgb/AI-Governance-Workspace` | Active | GitHub repo + local clone | Private registry and operating layer for AI-assisted projects. |
+| Abundly Refactor | `abundly-refactor/` | `https://github.com/robkr-rgb/AI-Governance-Workspace/tree/main/abundly-refactor` | Active | GitHub repo subfolder | Governed AI agent platform prototype reverse-engineered from Abundly public docs and attached architecture dossier. |
 | Appy Runs ServiceNow Integration | `appy-runs-servicenow-integration/` | `https://github.com/robkr-rgb/appy-runs-servicenow-integration` | Active | GitHub repo + local clone | Private documentation workspace for the Appy Runs to ServiceNow integration document. |
 | ServiceNow Agentic Architect | `ServiceNow-Agentic-Architect/` | `https://github.com/robkr-rgb/ServiceNow-Agentic-Architect` | Active | GitHub repo + local clone | ServiceNow-native autonomous optimization agent. |
 | Van Oord IT Intake | `van-oord-it-intake/` | `https://github.com/robkr-rgb/van-oord-it-intake` | Active | GitHub repo + local clone | Private HTML project. |
