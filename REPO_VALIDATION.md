@@ -184,3 +184,18 @@ npm ci
 npm run lint
 npm run build
 ```
+
+## 2026-06-12 Update: Wedding Website
+
+Created wedding website for Marcela & Rob (23 April 2027, Castle De Haar, Utrecht).
+
+| Project | Local path | Repository | Branch | Result |
+|---|---|---|---|---|
+| Wedding Website | `projects/wedding/` (OpenClaw workspace) | `https://github.com/robkr-rgb/Wedding-website` | `main` | Repo created by Rob, initial commit pushed by Yuanbao. |
+
+The project includes `README.md`, `PROJECT.md`, `CHANGELOG.md`, `.ai/context.md`, `.ai/tasks.md`, `.ai/decisions.md`, `.ai/prompts.md`, `docs/architecture.md`, `docs/running-locally.md`, and `src/` with `index.html` and `server.js`.
+
+### Governance Deviation
+
+Repo is currently **public**. This was a workaround for a PAT scope limitation (fine-grained PAT predated the repo; classic PAT used for push). Should be set to **private** at github.com/robkr-rgb/Wedding-website → Settings → Visibility. Action required by Rob.
+
