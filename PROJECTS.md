@@ -41,6 +41,7 @@ This file is the local map of active projects. Each project should have one cano
 | Bruiloft Planner | `bruiloft-planner/` | `https://github.com/robkr-rgb/bruiloft-planner` | Active | GitHub repo + local clone | Private personal wedding-planning single-page React app (HTML/JSX, client-side, localStorage). |
 | Networth Tracker | `networth-tracker/` | `https://github.com/robkr-rgb/networth-tracker` | Active | GitHub repo + local clone | Private personal net-worth tracker (Vite + React, client-side, localStorage). Per-asset-per-month ledger; seeded with historical xlsx data. |
 
+| Wedding Website | `Wedding-website/` | `https://github.com/robkr-rgb/Wedding-website` | Active | GitHub repo | **Public** (governance deviation — made public to work around PAT scope limit; should be made private). Static HTML/CSS/JS wedding site for Marcela & Rob, 23 April 2027. |
 ## Standard Project Shape
 
 ```text
