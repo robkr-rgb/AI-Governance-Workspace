@@ -199,3 +199,24 @@ The project includes `README.md`, `PROJECT.md`, `CHANGELOG.md`, `.ai/context.md`
 
 Repo is currently **public**. This was a workaround for a PAT scope limitation (fine-grained PAT predated the repo; classic PAT used for push). Should be set to **private** at github.com/robkr-rgb/Wedding-website → Settings → Visibility. Action required by Rob.
 
+## 2026-06-13 Update: EVA
+
+Created a new Git-backed project for EVA (Extract, Verify & Advise) — a personal AI work assistant. The project lives outside the AI Governance workspace folder (at `/Users/rob/code/eva`) but is registered here per the standard.
+
+| Project | Local path | Repository | Branch | Result |
+|---|---|---|---|---|
+| EVA | `/Users/rob/code/eva` | `https://github.com/robkr-rgb/eva` | `main` | Private repository created, initial scaffold committed, and branch pushed. |
+
+The project follows the AI Governance standard shape:
+
+- `README.md`
+- `PROJECT.md`
+- `.ai/context.md`, `.ai/tasks.md`, `.ai/decisions.md`, `.ai/prompts.md`
+- `docs/architecture.md`, `docs/running-locally.md`, `docs/eva-reverse-engineering.html`
+- `eva/` Python package (Flask blueprints, SQLite store, Anthropic client, source connectors)
+- `templates/` and `static/` for the UI
+- `config.example.toml` (committed) and `config.toml` (gitignored; holds Anthropic + Notion keys)
+- `data/` gitignored (SQLite DB + `app-state.json`)
+
+EVA is a clean Python re-implementation of an architecture reverse-engineered from a private demo (deliverable preserved at `docs/eva-reverse-engineering.html`). Three deliberate diffs from that reference: meeting transcripts come from Notion (`🎙️ AI Meeting Recordings`) via the custom `transcription` block, all UI/prompts are English, and the budget layer adds a per-invocation `import_cap_eur` on top of the daily/monthly caps.
+
